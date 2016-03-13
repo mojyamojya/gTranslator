@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/facebookLayout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF">
+	<EditText
+		android:id="@+id/message" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:layout_margin="5dp"
+	    android:inputType="textMultiLine" 
+	    android:gravity="top"
+	    />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		>
+		<Button
+			android:text="@string/facebook_post_button_text"
+			android:id="@+id/fb_post" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			/>
+		<Button
+			android:text="@string/facebook_cancel_button_text"
+			android:id="@+id/fb_cancel" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	    	android:layout_marginRight="5dp"
+			/>
+	</LinearLayout>
+</LinearLayout>

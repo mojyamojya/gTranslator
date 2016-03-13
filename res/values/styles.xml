@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Animation" parent="android:Animation" />
+	<style name="Animation.Activity" parent="android:Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+	</style>
+    <style name="TranslatorTitleTheme.Black" parent="@android:style/Theme.Black">
+		<item name="android:windowTitleSize">50dip</item>
+    	<item name="android:windowTitleStyle">@style/gTranslatorWindowTitle</item>
+    	<item name="android:windowTitleBackgroundStyle">@style/TranslatorWindowTitleBackground</item>
+    </style>
+    <style name="TwitterTitleTheme.Light" parent="@android:style/Theme.Light">
+		<item name="android:windowTitleSize">50dip</item>
+    	<item name="android:windowTitleStyle">@style/gTranslatorWindowTitle</item>
+    	<item name="android:windowTitleBackgroundStyle">@style/TwitterWindowTitleBackground</item>
+    </style>
+    <style name="FacebookTitleTheme.Light" parent="@android:style/Theme.Light">
+		<item name="android:windowTitleSize">50dip</item>
+    	<item name="android:windowTitleStyle">@style/gTranslatorWindowTitle</item>
+    	<item name="android:textAppearance">@style/FacebookWindowTitleIcon</item>
+    	<item name="android:windowTitleBackgroundStyle">@style/FacebookWindowTitleBackground</item>
+    </style>
+    <style name="gTranslatorWindowTitle">
+		<item name="android:singleLine">true</item>
+		<item name="android:textAppearance">@style/TextAppearance.WindowTitle</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:shadowRadius">2.75</item>
+	</style>
+    <style name="FacebookWindowTitleIcon">
+		<item name="android:singleLine">true</item>
+		<item name="android:textAppearance">@style/TextAppearance.WindowTitleIcon</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowRadius">2.75</item>
+	</style>
+    <style name="TranslatorWindowTitleBackground">
+    	<item name="android:background">@drawable/title_bar</item>
+    </style>
+    <style name="TwitterWindowTitleBackground">
+    	<item name="android:background">@drawable/twitter_title_bar</item>
+    </style>
+    <style name="FacebookWindowTitleBackground">
+    	<item name="android:background">@drawable/facebook_title_bar</item>
+    </style>
+	<style name="TextAppearance.WindowTitle" parent="@android:style/TextAppearance.WindowTitle">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="TextAppearance.WindowTitleIcon" parent="@android:style/TextAppearance.WindowTitle">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">25sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>

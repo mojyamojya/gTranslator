@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/conf_translate">
+  	<ListPreference
+  		android:key="list_src_language"
+  		android:summary="@string/conf_translate_src_lang_summary"
+  		android:dialogTitle="@string/translate_lang_dialog"
+  		android:defaultValue="en"
+  		android:entries="@array/language_label"
+  		android:entryValues="@array/language_data" />
+  	<ListPreference
+  		android:key="list_dst_language"
+  		android:summary="@string/conf_translate_dst_lang_summary"
+  		android:dialogTitle="@string/translate_lang_dialog"
+  		android:defaultValue="ja"
+  		android:entries="@array/language_label"
+  		android:entryValues="@array/language_data" />
+  	<CheckBoxPreference
+  		android:key="store"
+  		android:title="@string/conf_translate_store_title"
+  		android:summary="@string/conf_translate_store_summary"
+  		android:defaultValue="true"
+  		 />
+  	<CheckBoxPreference
+  		android:key="clipmode"
+  		android:title="@string/conf_translate_clipmode_title"
+  		android:summary="@string/conf_translate_clipmode_summary"
+  		android:defaultValue="false"
+  		 />
+  	<CheckBoxPreference
+  		android:key="translate_location"
+  		android:title="@string/conf_translate_location_title"
+  		android:summary="@string/conf_translate_location_summary"
+  		/>
+  	<ListPreference
+  		android:key="list_translation_engines"
+  		android:summary="@string/conf_translate_engines_summary"
+  		android:dialogTitle="@string/translate_lang_dialog"
+  		android:defaultValue="0"
+  		android:entries="@array/translation_engines_label"
+  		android:entryValues="@array/translation_engines_data"
+  		/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/conf_voice_recognition">
+  	<CheckBoxPreference
+  		android:key="voice_recognition"
+  		android:title="@string/conf_voice_recognition_title"
+  		android:summary="@string/conf_voice_recognition_summary"
+  		android:defaultValue="false"
+  		/>
+  	<ListPreference
+  		android:key="list_voice_recognition"
+  		android:dependency="voice_recognition"
+  		android:title="@string/conf_voice_recognition_list_title"
+  		android:summary="@string/conf_voice_recognition_list_summary"
+  		android:dialogTitle="@string/translate_lang_dialog"
+  		android:defaultValue="ja"
+  		android:entries="@array/language_label"
+  		android:entryValues="@array/language_data"
+  		/>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/conf_twitter">
+  	<CheckBoxPreference
+  		android:key="tweet"
+  		android:title="@string/conf_twitter_tweet_title"
+  		android:summary="@string/conf_twitter_tweet_summary"
+  		/>
+  	<asia.live_cast.translator.android.views.EditTextPreference4Twitter
+  		android:key="twitter_account"
+  		android:dependency="tweet"
+  		android:title="@string/account"
+  		android:summary="@string/conf_twitter_account_summary"
+  		android:dialogTitle="@string/conf_twitter_account_dailog"
+  		android:singleLine="true"
+  		android:inputType="textVisiblePassword"
+  		/>
+  	<asia.live_cast.translator.android.views.EditTextPreference4Twitter
+  		android:key="twitter_password"
+  		android:dependency="tweet"
+  		android:title="@string/password"
+  		android:summary="@string/conf_twitter_password_summary"
+  		android:dialogTitle="@string/conf_twitter_password_dialog"
+  		android:password="true"
+  		/>
+  	<CheckBoxPreference
+  		android:key="tweet_location"
+  		android:title="@string/conf_twitter_location_title"
+  		android:summary="@string/conf_twitter_location_summary"
+  		/>
+  </PreferenceCategory>
+</PreferenceScreen>

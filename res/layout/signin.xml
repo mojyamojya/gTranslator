@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/signin_layout_root"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<TableRow>
+	  	<TextView
+    		android:layout_column="1"
+	  		android:text="@string/account"
+			android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dp"
+	  		/>
+	  	<asia.live_cast.translator.android.views.EditText4Twitter
+	  		android:id="@+id/account"
+	  		android:width="200dp"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:singleLine="true"
+	  		android:inputType="textVisiblePassword"
+	  		android:layout_margin="5dp"
+	  		/>
+	</TableRow>
+  	<TableRow>
+	  	<TextView
+    		android:layout_column="1"
+	  		android:text="@string/password"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	    	android:layout_marginLeft="5dp"
+	  		/>
+	  	<asia.live_cast.translator.android.views.EditText4Twitter
+	  		android:id="@+id/password"
+	  		android:width="200dp"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:singleLine="true"
+	  		android:password="true"
+	    	android:layout_margin="5dp"
+	  		/>
+	</TableRow>
+	<CheckBox
+		android:text="@string/rememberme"
+		android:id="@+id/rememberme"
+		android:layout_marginLeft="5dp" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+</TableLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gTranslator</string>
+    <string-array name="language_label">
+        <item>英語</item>
+        <item>日本語</item>
+        <item>簡体字中国語</item>
+        <item>繁体字中国語</item>
+        <!-- <item>Italian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Russian</item> -->
+        <item>韓国語</item>
+    </string-array>
+    <string-array name="language_data">
+        <item>en</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <!-- <item>it</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>ru</item> -->
+        <item>ko</item>
+    </string-array>
+    <string-array name="translation_engines_label">
+        <!--<item>Google Translate API</item>-->
+        <!--<item>Google Translate API v2 (Labs)</item>-->
+        <item>Microsoft Bing Translate</item>
+    </string-array>
+    <string-array name="translation_engines_data">
+        <item>0</item>
+        <!--<item>1</item>-->
+        <!--<item>2</item>-->
+    </string-array>
+    <string name="install_voice_data_dialog_title">音声データのインストール</string>
+    <string name="install_voice_data_dialog_message">音声データをインストールします。よろしいですか？</string>
+    <string name="install_voice_data_confirm">次からは確認しない。</string>
+    <string name="translate_lang_dialog">選択してください。</string>
+    <string name="translate_signin_dialog_title">Sign in</string>
+    <string name="translate_progress_message">Translating... Please wait.</string>
+    <string name="translate_clipboard_message">クリップボードにコピーしました!</string>
+    <string name="translate_failed_message">翻訳に失敗しました...</string>
+    <string name="translate_voice_recognition_dialog">選択してください。</string>
+    <string name="translate_sms_failed_message">アクティビティの起動に失敗しました...</string>
+    <string name="translate_location_dialog_title">現在位置情報の取得</string>
+    <string name="translate_location_dialog_message">現在の位置情報を利用します。よろしいですか？</string>
+    <string name="translate_location_getting_message">現在位置を取得しています...</string>
+    <string name="conf_twitter_account_empty_message">ID（またはemail）が入力されていません。</string>
+    <string name="conf_twitter_password_empty_message">パスワードが入力されていません。</string>
+    <string name="account">ID or email</string>
+    <string name="password">Password</string>
+    <string name="rememberme">保存する</string>
+    <string name="his_message">No translation...</string>
+    <string name="conf_translate">翻訳設定</string>
+    <string name="conf_translate_src_lang_title">%sから</string>
+    <string name="conf_translate_src_lang_summary">翻訳対象となる言語のデフォルトを設定します。</string>
+    <string name="conf_translate_dst_lang_title">%sに訳す</string>
+    <string name="conf_translate_dst_lang_summary">翻訳結果となる言語のデフォルトを設定します。</string>
+    <string name="conf_translate_store_title">翻訳結果を保存</string>
+    <string name="conf_translate_store_summary">翻訳結果が自動的に保存されます。</string>
+    <string name="conf_translate_clipmode_title">クリップボードを翻訳</string>
+    <string name="conf_translate_clipmode_summary">バックグラウンドでクリップボードを翻訳します。</string>
+    <string name="conf_translate_location_title">現在位置情報を取得</string>
+    <string name="conf_translate_location_summary">翻訳機能を利用した場所の情報を保存します。</string>
+    <string name="conf_translate_engines_title">%s</string>
+    <string name="conf_translate_engines_summary">翻訳に使用するAPIを設定します。</string>
+    <string name="conf_voice_recognition">音声認識設定</string>
+    <string name="conf_voice_recognition_title">音声入力の言語を固定</string>
+    <string name="conf_voice_recognition_summary">音声入力する言語を固定します。</string>
+    <string name="conf_voice_recognition_list_title">音声入力の言語</string>
+    <string name="conf_voice_recognition_list_summary">音声入力する言語のデフォルトを設定します。</string>
+    <string name="conf_twitter">twitter設定</string>
+    <string name="conf_twitter_tweet_title">twitterアカウントを保存</string>
+    <string name="conf_twitter_tweet_summary">翻訳結果をtweetするアカウントを保存します。</string>
+    <string name="conf_twitter_account_summary">IDまたはemailを入力してください。</string>
+    <string name="conf_twitter_account_dailog">IDまたはemailを入力してください。</string>
+    <string name="conf_twitter_password_summary">パスワードを入力してください。</string>
+    <string name="conf_twitter_password_dialog">パスワードを入力してください。</string>
+    <string name="conf_twitter_location_title">現在位置情報を取得</string>
+    <string name="conf_twitter_location_summary">翻訳結果のtweetに現在の位置情報を利用します。</string>
+    <string name="adp_history_delete_dialog_title">削除確認</string>
+    <string name="adp_history_delete_dialog_message">選択された履歴を削除してもよろしいですか？</string>
+    <string name="adp_history_delete_all_dialog_message">翻訳履歴をすべて削除します。よろしいですか？</string>
+    <string name="tweet_progress_message">Tweeting...Please wait.</string>
+    <string name="tweet_complete_message">ツイートされました!</string>
+    <string name="tweet_failed_message">ツイートに失敗しました...</string>
+    <string name="tweet_authentication_failed_message">認証に失敗しました... IDまたはパスワードに誤りがあります。</string>
+    <string name="tweet_header_title">翻訳結果をツイートする</string>
+    <string name="tweet_status_count">140</string>
+    <string name="tweet_button_text">ツイート</string>
+    <string name="tweet_cancel_button_text">キャンセル</string>
+    <string name="tweet_location_dialog_title">現在位置情報の取得</string>
+    <string name="tweet_location_dialog_message">現在の位置情報を利用します。よろしいですか？</string>
+    <string name="tweet_location_progress_message">Getting location...Please wait.</string>
+    <string name="twitter_signin_empty_message">ID（email）またはパスワードを入力してください。</string>
+    <string name="facebook_title_text">Facebookに投稿する</string>
+    <string name="facebook_post_button_text">投稿する</string>
+    <string name="facebook_cancel_button_text">キャンセル</string>
+    <string name="facebook_posted_message">翻訳結果をウォールに投稿しました。</string>
+    <string name="facebook_error_message">ウォールへの投稿に失敗しました。</string>
+    <string name="facebook_progress_message">Posting...Please wait.</string>
+    <string name="facebook_authorize_failed_message">認証に失敗しました...</string>
+    <string name="location_available_message">現在位置が有効になりました。</string>
+    <string name="location_not_available_message">現在位置は利用できません。</string>
+    <string name="location_provider_error_messae">GPSセンサーがご利用になれません。</string>
+    <string name="location_status_error_messae">現在位置情報の取得に失敗しました。</string>
+    <string name="location_failed_message">現在位置の取得に失敗しました...</string>
+    <string name="activity_animation_duration">1000</string>
+    <string name="info_application_version">Version 1.2.6</string>
+    <string name="info_application_update_date">2012/1/8</string>
+    <string name="info_application_copyright">Copyright \u00a9 2010-2012 Livecast, Inc.</string>
+    <string name="info_application_all_right_reserved">All Rights reserved.</string>
+    <string name="info_application_contact">Contact</string>
+    <string name="info_application_facebook">facebook:</string>
+    <string name="info_application_facebook_url">http://live-cast.asia/facebook/</string>
+    <string name="info_application_twitter">twitter:</string>
+    <string name="info_application_twitter_url">http://twitter.com/mojyamojya/</string>
+    <string name="info_application_email">email:</string>
+    <string name="info_application_email_address">info@live-cast.asia</string>
+    <string name="info_application_site">http://live-cast.asia/</string>
+</resources>

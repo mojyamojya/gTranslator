@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gTranslator</string>
+    <string-array name="language_label">
+        <item>English</item>
+        <item>Japanese</item>
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+        <!-- <item>Italian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Russian</item> -->
+        <item>Korean</item>
+    </string-array>
+    <string-array name="language_data">
+        <item>en</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <!-- <item>it</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>ru</item> -->
+        <item>ko</item>
+    </string-array>
+    <string-array name="translation_engines_label">
+        <!--<item>Google Translate API</item>-->
+        <!--<item>Google Translate API v2 (Labs)</item>-->
+        <item>Microsoft Bing Translate</item>
+    </string-array>
+    <string-array name="translation_engines_data">
+        <item>0</item>
+        <!--<item>1</item>-->
+        <!--<item>2</item>-->
+    </string-array>
+    <string name="install_voice_data_dialog_title">Install voice data</string>
+    <string name="install_voice_data_dialog_message">Install the voice data. Are you sure?</string>
+    <string name="install_voice_data_confirm">Next time do not check.</string>
+    <string name="translate_lang_dialog">Please select.</string>
+    <string name="translate_signin_dialog_title">Sign in</string>
+    <string name="translate_progress_message">Translating... Please wait.</string>
+    <string name="translate_clipboard_message">Copied to the clipboard!</string>
+    <string name="translate_failed_message">Translation failed...</string>
+    <string name="translate_voice_recognition_dialog">Please select.</string>
+    <string name="translate_sms_failed_message">Start activity failed...</string>
+    <string name="translate_location_dialog_title">Get current location</string>
+    <string name="translate_location_dialog_message">Use your Current Location. Are you sure?</string>
+    <string name="translate_location_getting_message">Getting the current location...</string>
+    <string name="conf_twitter_account_empty_message">No ID (or email address) is entered.</string>
+    <string name="conf_twitter_password_empty_message">No password is entered.</string>
+    <string name="account">ID or email</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember me</string>
+    <string name="his_message">No translation...</string>
+    <string name="conf_translate">Translation Settings</string>
+    <string name="conf_translate_src_lang_title">From %s</string>
+    <string name="conf_translate_src_lang_summary">Set default language to be translated.</string>
+    <string name="conf_translate_dst_lang_title">To %s</string>
+    <string name="conf_translate_dst_lang_summary">Set the default language and translation results.</string>
+    <string name="conf_translate_store_title">Saving translation words</string>
+    <string name="conf_translate_store_summary">Translation are stored automatically.</string>
+    <string name="conf_translate_clipmode_title">Translating clipboard</string>
+    <string name="conf_translate_clipmode_summary">Translate the clipboard in the background.</string>
+    <string name="conf_translate_location_title">Get the current location</string>
+    <string name="conf_translate_location_summary">Save of the translation on the location.</string>
+    <string name="conf_translate_engines_title">%s</string>
+    <string name="conf_translate_engines_summary">Setting the translation API version.</string>
+    <string name="conf_voice_recognition">Voice recognition Settings</string>
+    <string name="conf_voice_recognition_title">Fixing input language</string>
+    <string name="conf_voice_recognition_summary">Fix the voice input language.</string>
+    <string name="conf_voice_recognition_list_title">Language voice input</string>
+    <string name="conf_voice_recognition_list_summary">Set the default language for voice input.</string>
+    <string name="conf_twitter">Twitter Settings</string>
+    <string name="conf_twitter_tweet_title">Save twitter account</string>
+    <string name="conf_twitter_tweet_summary">Save your twitter account to tweet translation.</string>
+    <string name="conf_twitter_account_summary">Your ID or email address please.</string>
+    <string name="conf_twitter_account_dailog">Your ID or email address please.</string>
+    <string name="conf_twitter_password_summary">Your password please.</string>
+    <string name="conf_twitter_password_dialog">Your password please.</string>
+    <string name="conf_twitter_location_title">Get the current location</string>
+    <string name="conf_twitter_location_summary">Tweet of the translation on the location.</string>
+    <string name="adp_history_delete_dialog_title">Delete confirmation</string>
+    <string name="adp_history_delete_dialog_message">Are you sure you want to delete the selected history?</string>
+    <string name="adp_history_delete_all_dialog_message">Delete all translation history. Are you sure?</string>
+    <string name="tweet_progress_message">Tweeting...Please wait.</string>
+    <string name="tweet_complete_message">Been tweeting!</string>
+    <string name="tweet_failed_message">Tweeting failed...</string>
+    <string name="tweet_authentication_failed_message">Authentication failed... Incorrect ID or password.</string>
+    <string name="tweet_header_title">Tweet a translation</string>
+    <string name="tweet_status_count">140</string>
+    <string name="tweet_button_text">Tweet</string>
+    <string name="tweet_cancel_button_text">Cancel</string>
+    <string name="tweet_location_dialog_title">Get current location</string>
+    <string name="tweet_location_dialog_message">Use your Current Location. Are you sure?</string>
+    <string name="tweet_location_progress_message">Getting location...Please wait.</string>
+    <string name="twitter_signin_empty_message">Your ID (email address) or password please.</string>
+    <string name="facebook_title_text">Post to Facebook</string>
+    <string name="facebook_post_button_text">Post</string>
+    <string name="facebook_cancel_button_text">Cancel</string>
+    <string name="facebook_posted_message">Translation posted to Facebook.</string>
+    <string name="facebook_error_message">Posting failed...</string>
+    <string name="facebook_progress_message">Posting...Please wait.</string>
+    <string name="facebook_authorize_failed_message">Authorize failed...</string>
+    <string name="location_available_message">Current location is available.</string>
+    <string name="location_not_available_message">Current location is not available.</string>
+    <string name="location_provider_error_messae">GPS sensors are not available.</string>
+    <string name="location_status_error_messae">Failed to get the current location.</string>
+    <string name="location_failed_message">Current location is not available.</string>
+    <string name="activity_animation_duration">1000</string>
+    <string name="info_application_version">Version 1.2.6</string>
+    <string name="info_application_update_date">January 8, 2011</string>
+    <string name="info_application_copyright">Copyright \u00a9 2010-2012 Livecast, Inc.</string>
+    <string name="info_application_all_right_reserved">All Rights reserved.</string>
+    <string name="info_application_contact">Contact</string>
+    <string name="info_application_facebook">facebook:</string>
+    <string name="info_application_facebook_url">http://live-cast.asia/facebook/</string>
+    <string name="info_application_twitter">twitter:</string>
+    <string name="info_application_twitter_url">http://twitter.com/mojyamojya/</string>
+    <string name="info_application_email">email:</string>
+    <string name="info_application_email_address">info@live-cast.asia</string>
+    <string name="info_application_site">http://live-cast.asia/</string>
+</resources>

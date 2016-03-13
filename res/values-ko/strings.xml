@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gTranslator</string>
+    <string-array name="language_label">
+        <item>영어</item>
+        <item>일본어</item>
+        <item>중국어 간체</item>
+        <item>중국어 번체</item>
+        <!-- <item>Italian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Russian</item> -->
+        <item>한국어</item>
+    </string-array>
+    <string-array name="language_data">
+        <item>en</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <!-- <item>it</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>ru</item> -->
+        <item>ko</item>
+    </string-array>
+    <string-array name="translation_engines_label">
+        <!--<item>Google Translate API</item>-->
+        <!--<item>Google Translate API v2 (Labs)</item>-->
+        <item>Microsoft Bing Translate</item>
+    </string-array>
+    <string-array name="translation_engines_data">
+        <item>0</item>
+        <!--<item>1</item>-->
+        <!--<item>2</item>-->
+    </string-array>
+    <string name="install_voice_data_dialog_title">음성 데이터의 설치</string>
+    <string name="install_voice_data_dialog_message">음성 데이터를 설치합니다. 하시겠습니까?</string>
+    <string name="install_voice_data_confirm">다음 번 검사하지 않습니다.</string>
+    <string name="translate_lang_dialog">선택하십시오</string>
+    <string name="translate_signin_dialog_title">Sign in</string>
+    <string name="translate_progress_message">Translating... Please wait.</string>
+    <string name="translate_clipboard_message">클립 보드에 복사!</string>
+    <string name="translate_failed_message">번역 실패...</string>
+    <string name="translate_voice_recognition_dialog">선택하십시오</string>
+    <string name="translate_sms_failed_message">Start activity failed...</string>
+    <string name="translate_location_dialog_title">현재 위치를 잡아</string>
+    <string name="translate_location_dialog_message">현재 위치 정보를 이용합니다. 시겠습니까?</string>
+    <string name="translate_location_getting_message">현재 위치를 검색하고 있습니다...</string>
+    <string name="conf_twitter_account_empty_message">ID (또는 이메일 주소)이 입력되지 않았습니다</string>
+    <string name="conf_twitter_password_empty_message">비밀 번호가 입력되어 있지 않습니다</string>
+    <string name="account">ID or email</string>
+    <string name="password">Password</string>
+    <string name="rememberme">기억하기</string>
+    <string name="his_message">No translation...</string>
+    <string name="conf_translate">번역 설정</string>
+    <string name="conf_translate_src_lang_title">%s를</string>
+    <string name="conf_translate_src_lang_summary">설정 기본 언어로 번역</string>
+    <string name="conf_translate_dst_lang_title">%s로 번역</string>
+    <string name="conf_translate_dst_lang_summary">설정 기본 언어와 번역 결과</string>
+    <string name="conf_translate_store_title">번역 단어를 저장</string>
+    <string name="conf_translate_store_summary">번역 결과가 자동으로 저장됩니다</string>
+    <string name="conf_translate_clipmode_title">클립 보드 번역</string>
+    <string name="conf_translate_clipmode_summary">백그라운드에서 클립 보드 번역</string>
+    <string name="conf_translate_location_title">현재 위치를 잡아</string>
+    <string name="conf_translate_location_summary">번역 기능을 이용한 위치 정보를 저장합니다.</string>
+    <string name="conf_translate_engines_title">%s</string>
+    <string name="conf_translate_engines_summary">번역 API 버전을 설정합니다.</string>
+    <string name="conf_voice_recognition">음성 인식 설정</string>
+    <string name="conf_voice_recognition_title">입력 언어를 고정</string>
+    <string name="conf_voice_recognition_summary">입력할 언어를 고정합니다</string>
+    <string name="conf_voice_recognition_list_title">입력 언어</string>
+    <string name="conf_voice_recognition_list_summary">설정 음성 입력의 기본 언어</string>
+    <string name="conf_twitter">트위터 설정</string>
+    <string name="conf_twitter_tweet_title">저장 트위터 계정</string>
+    <string name="conf_twitter_tweet_summary">번역 짹짹 귀하의 트위터 계정을 저장</string>
+    <string name="conf_twitter_account_summary">ID 또는 이메일 주소를 입력하세요</string>
+    <string name="conf_twitter_account_dailog">ID 또는 이메일 주소를 입력하세요</string>
+    <string name="conf_twitter_password_summary">비밀 번호를 입력하세요</string>
+    <string name="conf_twitter_password_dialog">비밀 번호를 입력하세요</string>
+    <string name="conf_twitter_location_title">현재 위치 정보를 검색하는</string>
+    <string name="conf_twitter_location_summary">번역 결과 글에 현재의 위치 정보를 이용합니다</string>
+    <string name="adp_history_delete_dialog_title">삭제 확인</string>
+    <string name="adp_history_delete_dialog_message">당신은 당신이 선택한 기록을 삭제하시겠습니까?</string>
+    <string name="adp_history_delete_all_dialog_message">번역 기록을 모두 삭제합니다. 시겠습니까?</string>
+    <string name="tweet_progress_message">Tweeting...Please wait.</string>
+    <string name="tweet_complete_message">트위터에 게시된!</string>
+    <string name="tweet_failed_message">짹짹 실패...</string>
+    <string name="tweet_authentication_failed_message">인증에 실패했습니다... ID 또는 암호가 올바르지 있습니다.</string>
+    <string name="tweet_header_title">번역 결과를 트위터에 게시</string>
+    <string name="tweet_status_count">140</string>
+    <string name="tweet_button_text">짹짹</string>
+    <string name="tweet_cancel_button_text">취소</string>
+    <string name="tweet_location_dialog_title">현재 위치를 잡아</string>
+    <string name="tweet_location_dialog_message">현재 위치 정보를 이용합니다. 시겠습니까?</string>
+    <string name="tweet_location_progress_message">Getting location...Please wait.</string>
+    <string name="twitter_signin_empty_message">귀하의 ID를 (이메일 주소) 또는 비밀 번호를 입력하세요</string>
+    <string name="facebook_title_text">Facebook에 게시</string>
+    <string name="facebook_post_button_text">게시</string>
+    <string name="facebook_cancel_button_text">취소</string>
+    <string name="facebook_posted_message">번역 결과를 Facebook에 게시했습니다.</string>
+    <string name="facebook_error_message">Facebook에 게시하지 못했습니다.</string>
+    <string name="facebook_progress_message">Posting...Please wait.</string>
+    <string name="facebook_authorize_failed_message">인증에 실패했습니다...</string>
+    <string name="location_available_message">현재 위치가 사용되었습니다.</string>
+    <string name="location_not_available_message">현재 위치는 사용할 수 없습니다.</string>
+    <string name="location_provider_error_messae">GPS 센서를 이용하실 수 없습니다.</string>
+    <string name="location_status_error_messae">현재 위치 정보를 가져오는 데 실패했습니다.</string>
+    <string name="location_failed_message">현재 위치를 가져오는 데 실패했습니다...</string>
+    <string name="activity_animation_duration">1000</string>
+    <string name="info_application_version">Version 1.2.6</string>
+    <string name="info_application_update_date">2012/1/8</string>
+    <string name="info_application_copyright">Copyright \u00a9 2010-2012 Livecast, Inc.</string>
+    <string name="info_application_all_right_reserved">All Rights reserved.</string>
+    <string name="info_application_contact">Contact</string>
+    <string name="info_application_facebook">facebook:</string>
+    <string name="info_application_facebook_url">http://live-cast.asia/facebook/</string>
+    <string name="info_application_twitter">twitter:</string>
+    <string name="info_application_twitter_url">http://twitter.com/mojyamojya/</string>
+    <string name="info_application_email">email:</string>
+    <string name="info_application_email_address">info@live-cast.asia</string>
+    <string name="info_application_site">http://live-cast.asia/</string>
+</resources>

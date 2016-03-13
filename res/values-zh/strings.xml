@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gTranslator</string>
+    <string-array name="language_label">
+        <item>英语</item>
+        <item>日本语</item>
+        <item>简体中文</item>
+        <item>繁体中文</item>
+        <!-- <item>Italian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Russian</item> -->
+        <item>韩国语</item>
+    </string-array>
+    <string-array name="language_data">
+        <item>en</item>
+        <item>ja</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <!-- <item>it</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>ru</item> -->
+        <item>ko</item>
+    </string-array>
+    <string-array name="translation_engines_label">
+        <!--<item>Google Translate API</item>-->
+        <!--<item>Google Translate API v2 (Labs)</item>-->
+        <item>Microsoft Bing Translate</item>
+    </string-array>
+    <string-array name="translation_engines_data">
+        <item>0</item>
+        <!--<item>1</item>-->
+        <!--<item>2</item>-->
+    </string-array>
+    <string name="install_voice_data_dialog_title">安装音频数据</string>
+    <string name="install_voice_data_dialog_message">安装音频数据。你肯定吗？</string>
+    <string name="install_voice_data_confirm">下次不要检查</string>
+    <string name="translate_lang_dialog">请选择</string>
+    <string name="translate_signin_dialog_title">Sign in</string>
+    <string name="translate_progress_message">Translating... Please wait.</string>
+    <string name="translate_clipboard_message">复制到剪贴板！</string>
+    <string name="translate_failed_message">翻译失败...</string>
+    <string name="translate_voice_recognition_dialog">请选择</string>
+    <string name="translate_sms_failed_message">Start activity failed...</string>
+    <string name="translate_location_dialog_title">获取当前的位置信息</string>
+    <string name="translate_location_dialog_message">当前位置优势。你肯定吗？</string>
+    <string name="translate_location_getting_message">要获取当前的位置...</string>
+    <string name="conf_twitter_account_empty_message">身份证（或电子邮件）是没有输入</string>
+    <string name="conf_twitter_password_empty_message">没有密码输入</string>
+    <string name="account">ID or email</string>
+    <string name="password">Password</string>
+    <string name="rememberme">记住我</string>
+    <string name="his_message">No translation...</string>
+    <string name="conf_translate">翻译设置</string>
+    <string name="conf_translate_src_lang_title">来自%s</string>
+    <string name="conf_translate_src_lang_summary">设置默认语言进行翻译</string>
+    <string name="conf_translate_dst_lang_title">翻译成%s</string>
+    <string name="conf_translate_dst_lang_summary">设置默认语言和翻译结果</string>
+    <string name="conf_translate_store_title">保存的话翻译</string>
+    <string name="conf_translate_store_summary">翻译结果自动存储</string>
+    <string name="conf_translate_clipmode_title">翻译剪贴板</string>
+    <string name="conf_translate_clipmode_summary">翻译在后台剪贴板</string>
+    <string name="conf_translate_location_title">获取当前的位置信息</string>
+    <string name="conf_translate_location_summary">保存时的位置翻译。</string>
+    <string name="conf_translate_engines_title">%s</string>
+    <string name="conf_translate_engines_summary">用于设置翻译的API。</string>
+    <string name="conf_voice_recognition">语音识别设置</string>
+    <string name="conf_voice_recognition_title">固定输入语言</string>
+    <string name="conf_voice_recognition_summary">修正了语音输入的语言</string>
+    <string name="conf_voice_recognition_list_title">语言的语音输入</string>
+    <string name="conf_voice_recognition_list_summary">设置默认语言的语音输入</string>
+    <string name="conf_twitter">叽叽喳喳设定</string>
+    <string name="conf_twitter_tweet_title">保存叽叽喳喳帐户</string>
+    <string name="conf_twitter_tweet_summary">保存翻译结果叽叽喳喳帐户后</string>
+    <string name="conf_twitter_account_summary">您的身份证或电子邮件地址请</string>
+    <string name="conf_twitter_account_dailog">您的身份证或电子邮件地址请</string>
+    <string name="conf_twitter_password_summary">请输入您的密码</string>
+    <string name="conf_twitter_password_dialog">请输入您的密码</string>
+    <string name="conf_twitter_location_title">获取当前的位置信息</string>
+    <string name="conf_twitter_location_summary">使用后翻译的当前位置</string>
+    <string name="adp_history_delete_dialog_title">删除确认</string>
+    <string name="adp_history_delete_dialog_message">你确定要删除选定的历史？</string>
+    <string name="adp_history_delete_all_dialog_message">删除任何翻译的历史。你肯定吗？</string>
+    <string name="tweet_progress_message">Tweeting...Please wait.</string>
+    <string name="tweet_complete_message">张贴于叽叽喳喳！</string>
+    <string name="tweet_failed_message">鸣叫失败...</string>
+    <string name="tweet_authentication_failed_message">验证失败... 不正确的密码或ID。</string>
+    <string name="tweet_header_title">发布翻译的结果叽叽喳喳</string>
+    <string name="tweet_status_count">140</string>
+    <string name="tweet_button_text">邮政</string>
+    <string name="tweet_cancel_button_text">取消</string>
+    <string name="tweet_location_dialog_title">获取当前的位置</string>
+    <string name="tweet_location_dialog_message">当前位置优势。你肯定吗？</string>
+    <string name="tweet_location_progress_message">Getting location...Please wait.</string>
+    <string name="twitter_signin_empty_message">您的ID（电子邮件）或密码请</string>
+    <string name="facebook_title_text">发布到Facebook</string>
+    <string name="facebook_post_button_text">发表</string>
+    <string name="facebook_cancel_button_text">取消</string>
+    <string name="facebook_posted_message">翻译的结果张贴在Facebook上。</string>
+    <string name="facebook_error_message">Facebook可以不公布。</string>
+    <string name="facebook_progress_message">Posting...Please wait.</string>
+    <string name="facebook_authorize_failed_message">验证失败...</string>
+    <string name="location_available_message">当前位置现在已启动。</string>
+    <string name="location_not_available_message">当前位置不可用。</string>
+    <string name="location_provider_error_messae">GPS传感器无法使用。</string>
+    <string name="location_status_error_messae">无法检索当前的位置信息。</string>
+    <string name="location_failed_message">无法取得目前的地位...</string>
+    <string name="activity_animation_duration">1000</string>
+    <string name="info_application_version">Version 1.2.6</string>
+    <string name="info_application_update_date">2012/1/8</string>
+    <string name="info_application_copyright">Copyright \u00a9 2010-2012 Livecast, Inc.</string>
+    <string name="info_application_all_right_reserved">All Rights reserved.</string>
+    <string name="info_application_contact">Contact</string>
+    <string name="info_application_facebook">facebook:</string>
+    <string name="info_application_facebook_url">http://live-cast.asia/facebook/</string>
+    <string name="info_application_twitter">twitter:</string>
+    <string name="info_application_twitter_url">http://twitter.com/mojyamojya/</string>
+    <string name="info_application_email">email:</string>
+    <string name="info_application_email_address">info@live-cast.asia</string>
+    <string name="info_application_site">http://live-cast.asia/</string>
+</resources>

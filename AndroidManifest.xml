@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="asia.live_cast.translator.android"
+      android:versionCode="19"
+      android:versionName="1.2.6">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".gTranslator"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:windowSoftInputMode="adjustPan"
+                  android:theme="@style/TranslatorTitleTheme.Black"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.google.ads.AdActivity" 
+			android:configChanges="keyboard|keyboardHidden|orientation|"/>
+        <!--<activity android:name="com.admob.android.ads.AdMobActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	android:configChanges="orientation|keyboard|keyboardHidden" />-->
+	   	<activity android:name=".views.HistoryActivity"
+	   	    android:theme="@style/TranslatorTitleTheme.Black"
+	   	    />
+		<activity android:name=".views.ConfigActivity"
+	   	    android:theme="@style/TranslatorTitleTheme.Black"
+		    />
+		<activity android:name=".views.TweetActivity"
+            android:configChanges="orientation"
+	   		android:windowSoftInputMode="adjustResize"
+	   		android:theme="@style/TwitterTitleTheme.Light"
+			/>
+		<activity android:name=".views.FacebookActivity"
+            android:configChanges="orientation"
+	   		android:windowSoftInputMode="adjustResize"
+	   		android:theme="@style/FacebookTitleTheme.Light"
+			/>
+	   	<service android:enabled="true" android:name=".services.gTranslateService"></service>
+		<provider android:name=".provider.TranslateProvider" android:authorities="asia.live_cast.translator.android.provider.TranslateProvider"></provider>
+		<!--<receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<meta-data android:value="Your own admob publisher id." android:name="ADMOB_PUBLISHER_ID" />-->
+	</application>
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	
+	<uses-sdk android:minSdkVersion="4"></uses-sdk>
+
+
+
+</manifest> 
